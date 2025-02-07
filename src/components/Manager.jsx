@@ -49,7 +49,7 @@ const Manager = () => {
     7;
   };
   const deletepassword = (id) => {
-    let c = confirm("Do you really wanna delete this password?");
+    let c = confirm("Do you really really wanna delete this password?");
     if (c) {
       setPasswordArray([...PasswordArray].filter((item) => item.id != id));
       localStorage.setItem(

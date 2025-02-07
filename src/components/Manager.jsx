@@ -16,7 +16,7 @@ const Manager = () => {
   }, []);
 
   const showpassword = () => {
-    if (ref.current.innerText == "show") {
+    if (ref.current.innerText == "show it") {
       ref.current.innerText = "hide";
       passwordref.current.type = "text";
     } else {
